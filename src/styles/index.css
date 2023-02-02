@@ -21,4 +21,9 @@
 .luz {
     height: 120px;
     aspect-ratio: 1/1;
+    box-shadow: 0 0 30px 4px #f2f3b9b2 inset;
+}
+
+.selected {
+    box-shadow: 0 0 75px 75px #e3dab9;
 }

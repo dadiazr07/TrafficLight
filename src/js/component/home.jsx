@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
-			<div className="todo w-100 container-fluid bg-ligth  justify-content-center">
+			<div className="todo w-100 container-fluid bg-secondary  justify-content-center">
 				<div className="semaforo container col p-5 bg-black rounded-5">
 					<div className="luz bg-danger rounded-circle">
 					</div>
