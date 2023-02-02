@@ -1,12 +1,24 @@
+.todo {
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: stretch;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.semaforo {
+    height: 75%;
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-*/
+}
+
+.luz {
+    height: 120px;
+    aspect-ratio: 1/1;
+}
