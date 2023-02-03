@@ -28,6 +28,12 @@
     box-shadow: 0 0 10px 4px #f2f3b9b2 inset;
 }
 
-.selected {
+.selectedRed {
+    box-shadow: 0 0 75px 75px #e3b9b9;
+}
+.selectedYellow {
     box-shadow: 0 0 75px 75px #e3dab9;
+}
+.selectedGreen {
+    box-shadow: 0 0 75px 75px #bce3b9;
 }
