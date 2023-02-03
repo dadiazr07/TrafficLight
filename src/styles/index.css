@@ -10,18 +10,22 @@
 .semaforo {
     height: 75%;
     width: 200px;
+    border: 10px;
+    border-color: rgba(41, 42, 42, 0.74);
+    border-style: groove;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 0 75px 75px #00000073;
 
 }
 
 .luz {
     height: 120px;
     aspect-ratio: 1/1;
-    box-shadow: 0 0 30px 4px #f2f3b9b2 inset;
+    box-shadow: 0 0 10px 4px #f2f3b9b2 inset;
 }
 
 .selected {

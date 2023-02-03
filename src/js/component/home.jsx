@@ -9,7 +9,7 @@ const Home = () => {
 		<>
 			<div className="todo w-100 container-fluid bg-secondary  justify-content-center">
 				<div className="semaforo container col p-5 bg-black rounded-5">
-					<div className="luz bg-danger rounded-circle">
+					<div className="luz bg-danger rounded-circle selected">
 					</div>
 					<div className="luz bg-warning rounded-circle">
 					</div>
